@@ -25,7 +25,7 @@
 - trivial/docs/typo PRs: no ban; CONTRIBUTING welcomes low-hanging fruit
 
 ## Gap ledger (dedupe — READ FIRST, never re-pick)
-- `2026-09-03` trivial/minor-fix pass (typos/broken links/stale commands) — outcome: see tried-repos.jsonl — one-line lesson: docs-only, meaning-preserving, >=3 fixes, <=10 files
+- `2026-09-03` trivial/minor-fix pass — outcome: pr-opened (fork PR #2) — 22 meaning-preserving fixes in 10 files: stale `master`->`main-4.x` branch refs in README links + clone command, `exceljs`->`write-excel-file` (verified vs package.json + ACReporterXLSX source), `DEvTools`->`DevTools` typo. Lesson: docs-only, meaning-preserving, >=3 fixes, <=10 files.
 
 ## Mined gaps (discovered, not yet attempted)
 - none yet
