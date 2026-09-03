@@ -35,14 +35,14 @@ The browser extensions provide an integrated checking experience and visualizati
 ### Clone Repository
 
 ```bash
-$ git clone --branch=master https://github.com/IBMa/equal-access.git
+$ git clone --branch=main-4.x https://github.com/IBMa/equal-access.git
 $ cd equal-access
 ```
 
 or with SSH
 
 ```bash
-$ git clone --branch=master git@github.com:IBMa/equal-access.git
+$ git clone --branch=main-4.x git@github.com:IBMa/equal-access.git
 $ cd equal-access
 ```
 
