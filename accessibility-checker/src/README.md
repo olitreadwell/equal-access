@@ -97,11 +97,11 @@ async batchScan(rptInputFiles) {
 }    
 ```
 
-Refer to [Examples](https://github.com/IBMa/equal-access/tree/master/accessibility-checker/boilerplates) for sample usage scenarios.
+Refer to [Examples](https://github.com/IBMa/equal-access/tree/main-4.x/accessibility-checker/boilerplates) for sample usage scenarios.
 
 ## Quick Start and installation
 
-Grab a [boilerplate](https://github.com/IBMa/equal-access/tree/master/accessibility-checker/boilerplates)
+Grab a [boilerplate](https://github.com/IBMa/equal-access/tree/main-4.x/accessibility-checker/boilerplates)
 
 Install accessibility-checker:
 
