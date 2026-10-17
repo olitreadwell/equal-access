@@ -41,13 +41,13 @@ IBM's Equal Access initiative includes additional boilerplates in separate packa
 
 ### Cypress Testing Framework
 
-The [cypress-accessibility-checker](https://github.com/IBMa/equal-access/tree/master/cypress-accessibility-checker/boilerplates) package includes a boilerplate for:
+The [cypress-accessibility-checker](https://github.com/IBMa/equal-access/tree/main-4.x/cypress-accessibility-checker/boilerplates) package includes a boilerplate for:
 
 - Using [Cypress](https://www.npmjs.com/package/cypress) E2E testing framework with accessibility-checker for modern web application testing
 
 ### Java Testing Frameworks
 
-The [java-accessibility-checker](https://github.com/IBMa/equal-access/tree/master/java-accessibility-checker/boilerplates) package includes boilerplates for:
+The [java-accessibility-checker](https://github.com/IBMa/equal-access/tree/main-4.x/java-accessibility-checker/boilerplates) package includes boilerplates for:
 
 - **JUnit with Selenium**: Using Java's JUnit framework with [Selenium WebDriver](https://www.selenium.dev/documentation/webdriver/)
 - **JUnit with Playwright**: Using Java's JUnit framework with [Playwright](https://playwright.dev/)

@@ -1,6 +1,6 @@
 # accessibility-checker-extension
 
-Browser extensions integrated with the web developer tools (DEvTools) that add automated accessibility checking, automated keyboard checking visualizations, and reporting capabilities.
+Browser extensions integrated with the web developer tools (DevTools) that add automated accessibility checking, automated keyboard checking visualizations, and reporting capabilities.
 
 The extensions are supporting components of the [IBM Equal Access Toolkit](https://ibm.com/able/toolkit).
 The Toolkit provides the tools and guidance to create experiences that are delightful for people of all abilities.

@@ -35,9 +35,9 @@ XLSX report format is included automatically — no additional installation requ
 
 ## Configuration
 
-The configuration for the plugin is driven by a configuration file called `.achecker.yml` that you will need to put in the same directory as your `cypress.json` file. See details on the syntax of this file [here](https://github.com/IBMa/equal-access/blob/master/accessibility-checker/src/README.md#configuring-accessibility-checker).
+The configuration for the plugin is driven by a configuration file called `.achecker.yml` that you will need to put in the same directory as your `cypress.json` file. See details on the syntax of this file [here](https://github.com/IBMa/equal-access/blob/main-4.x/accessibility-checker/src/README.md#configuring-accessibility-checker).
 
-If your project uses ES modules (`"type": "module"` in `package.json`), use an `achecker.mjs` file with a default export instead of `.achecker.yml` or `achecker.js`. See the [ES module configuration example](https://github.com/IBMa/equal-access/blob/master/accessibility-checker/src/README.md#configuring-accessibility-checker) in the accessibility-checker README.
+If your project uses ES modules (`"type": "module"` in `package.json`), use an `achecker.mjs` file with a default export instead of `.achecker.yml` or `achecker.js`. See the [ES module configuration example](https://github.com/IBMa/equal-access/blob/main-4.x/accessibility-checker/src/README.md#configuring-accessibility-checker) in the accessibility-checker README.
 
 ## Setup Cypress
 
@@ -73,7 +73,7 @@ If you do not want to include `cypress-accessibility-checker` globally, you may 
 
 ## Usage
 
-The commands map directly to the description of the APIs located in the  [accessibility-checker/src/README](https://github.com/IBMa/equal-access/blob/master/accessibility-checker/src/README.md). The names of the APIs within [Cypress](https://www.npmjs.com/package/cypress) are just slightly different so they are globally unique in the [Cypress](https://www.npmjs.com/package/cypress) namespace.
+The commands map directly to the description of the APIs located in the  [accessibility-checker/src/README](https://github.com/IBMa/equal-access/blob/main-4.x/accessibility-checker/src/README.md). The names of the APIs within [Cypress](https://www.npmjs.com/package/cypress) are just slightly different so they are globally unique in the [Cypress](https://www.npmjs.com/package/cypress) namespace.
 
 The typical use case will be to get the accessibility compliance of a document and then assert the accessibility compliance against the configuration that is defined as part of the `.achecker.yml` file and any baselines that are defined. An example of how this looks is below:
 
@@ -83,7 +83,7 @@ The typical use case will be to get the accessibility compliance of a document a
 cy.getCompliance('my scan').assertCompliance()
 ```
 
-Examples of how to use each of the APIs below can be found in the `achecker.js` test file [located here](https://github.com/IBMa/equal-access/blob/master/cypress-accessibility-checker/test/cypress/e2e/achecker.cy.js).
+Examples of how to use each of the APIs below can be found in the `achecker.js` test file [located here](https://github.com/IBMa/equal-access/blob/main-4.x/cypress-accessibility-checker/test/cypress/e2e/achecker.cy.js).
 
 - `cy.getCompliance(label)`
   - Similar to `getCompliance()` in the reference API above.

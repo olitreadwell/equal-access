@@ -26,11 +26,11 @@ See the [Packages for test automation](https://github.com/IBMa/equal-access/wiki
 
 ## Usage
 
-Review the [Usage Documentation](https://github.com/IBMa/equal-access/tree/master/vitest-accessibility-checker/src/README.md) for detailed usage instructions and API reference.
+Review the [Usage Documentation](https://github.com/IBMa/equal-access/tree/main-4.x/vitest-accessibility-checker/src/README.md) for detailed usage instructions and API reference.
 
 ## Boilerplate
 
-Review the [Boilerplate Example](https://github.com/IBMa/equal-access/tree/master/vitest-accessibility-checker/boilerplates/vitest) for a complete example project demonstrating:
+Review the [Boilerplate Example](https://github.com/IBMa/equal-access/tree/main-4.x/vitest-accessibility-checker/boilerplates/vitest) for a complete example project demonstrating:
 
 - Vitest configuration with accessibility checker plugin
 - React component testing with vitest-browser-react
