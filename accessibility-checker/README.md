@@ -76,13 +76,13 @@ $ npm install
 
 ### Optional: XLSX Report Format
 
-If you want to generate reports in XLSX format, you need to install `exceljs` as an additional dependency:
+If you want to generate reports in XLSX format, you need to install `write-excel-file` as an additional dependency:
 
 ```bash
-$ npm install exceljs
+$ npm install write-excel-file
 ```
 
-Without `exceljs` installed, all other report formats (JSON, HTML, CSV) will work normally, but XLSX format will be disabled with a warning message.
+Without `write-excel-file` installed, all other report formats (JSON, HTML, CSV) will work normally, but XLSX format will be disabled with a warning message.
 
 ### Build & Package
 

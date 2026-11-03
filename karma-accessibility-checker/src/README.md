@@ -60,7 +60,7 @@ The tools that have been deployed to NPM so it can be easily downloaded and inst
 
 ## Quick start
 
-Grab a [boilerplate](https://github.com/IBMa/equal-access/tree/master/karma-accessibility-checker/boilerplates)
+Grab a [boilerplate](https://github.com/IBMa/equal-access/tree/main-4.x/karma-accessibility-checker/boilerplates)
 
 ## Getting started
 
@@ -256,7 +256,7 @@ aChecker.getCompliance(testDataFileContent, testFile, function (results) {
 });
 ```
 
-Refer to [Examples](https://github.com/IBMa/equal-access/tree/master/karma-accessibility-checker/boilerplates) for sample usage scenarios.
+Refer to [Examples](https://github.com/IBMa/equal-access/tree/main-4.x/karma-accessibility-checker/boilerplates) for sample usage scenarios.
 
 ## API
 
